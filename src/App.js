@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
-
-export default function App() {
+import {UserAute} from './Componets/UsetAute'
+ function App() {
   return (
     <div>
-      <h1>nithish</h1>
+      <UserAute/>
     </div>
   );
 }
+export default App;
